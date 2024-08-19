@@ -7,7 +7,7 @@ ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 
 # Copy project file(s) and restore dependencies
-COPY ["dockeraws/awsdocker/dockeraws/dockeraws.csproj", "dockeraws/"]
+COPY ["awsdocker/dockeraws/dockeraws.csproj", "dockeraws/"]
 RUN dotnet restore "./dockeraws/dockeraws.csproj"
 
 # Copy the rest of the source code and build the application
