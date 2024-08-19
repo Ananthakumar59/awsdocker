@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "VUt1qIBvWj6AHJug3P/WhGpbiq9+kHwMSO+148ib1uI=",
+  "Source": "dockeraws",
+  "BasePath": "_content/dockeraws",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
